@@ -111,6 +111,7 @@ dataLayer.push({
     }]
   }
 });
+	    function myfunction2(){
 	    dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   event: "add_to_cart",
@@ -140,7 +141,7 @@ dataLayer.push({
     ]
   }
 });
-	  
+	    }	  
 dataLayer.push({
   event: "add_to_cart",
   ecommerce1: {
@@ -213,14 +214,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 &emsp;  &emsp;  <img src="img/1.jpg" width="500" height="200">
 </p>
 
-&emsp;  &emsp;  &emsp;  &emsp;  <button id="btncart1"><a href="cart.html" id="btncart12" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
+&emsp;  &emsp;  &emsp;  &emsp;  <button id="btncart1" onclick="myfunction2"><a href="cart.html" id="btncart12" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
 <button type="button" style="font: bold 24px  Arial; color:green;"><a href="sucess.html">Purchase</a></button><br />
 </br></br>
 <p>
 &emsp;  &emsp;  <img src="img/2.jfif" width="500" height="200">
 </p>
 
-&emsp;  &emsp;  &emsp;  &emsp;  <button id="btncart"><a href="cart.html" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
+&emsp;  &emsp;  &emsp;  &emsp;  <button id="btncart" onclick="myfunction2"><a href="cart.html" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
 <button type="button" style="font: bold 24px  Arial; color:green;"><a href="sucess.html" id="btncart1">Purchase</a></button><br />
 
 </body>
